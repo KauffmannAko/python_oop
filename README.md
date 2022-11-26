@@ -14,5 +14,7 @@ one way to validate our data is by specifying the data type in the init paramete
 def __init__(self, name : str, price : int, quantity:int):
 
 Doubt no.4
-Attributes that are global or that will be shared accross all instances are called class attributes
-whereas instance attributes are shared to a particular intances
+Class attributes are attributes that belong to a class but can also be access at intance level
+whereas instance attributes are shared to a particular intances.
+
+__dict__ give the attribute at instance or class level
